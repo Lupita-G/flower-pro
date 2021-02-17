@@ -1,0 +1,23 @@
+.flower-card {
+  background-color: #fdf9f8;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 500px; }
+  .flower-card .flower-image img {
+    width: 400px;
+    height: 250px; }
+
+.flower-content h3 {
+  font-family: 'Canela', serif;
+  font-size: 25px;
+  text-align: center;
+  color: #c8553d; }
+.flower-content p {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 8px; }
+
+/*# sourceMappingURL=FlowerCard.css.map */

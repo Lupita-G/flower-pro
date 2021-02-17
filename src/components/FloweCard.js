@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/App.css';
+import '../styles/FlowerCard.css';
 
-function FlowerCard () {
+const FlowerCard = () => {
     return(
-        <article class="flower-card">
-          <div class="flower-image">
+        <article className="flower-card">
+          <div className="flower-image">
             <figure>
               <img
                 src="https://images.unsplash.com/photo-1548094967-e25a127d1f6d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjR8fGJvdXF1ZXQlMjByb3NlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
@@ -12,7 +12,7 @@ function FlowerCard () {
               />
             </figure>
           </div>
-          <div class="flower-content">
+          <div className="flower-content">
             <h3>
               Rosa Roja
             </h3>

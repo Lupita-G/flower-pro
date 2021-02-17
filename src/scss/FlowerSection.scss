@@ -1,0 +1,10 @@
+.flower-section {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 80px;
+    row-gap: 40px;
+    margin-left: 12.5%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

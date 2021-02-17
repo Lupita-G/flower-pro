@@ -1,0 +1,14 @@
+.favoritos h2 {
+  font-family: 'Canela', serif;
+  font-size: 50px;
+  color: #c8553d;
+  margin-top: 40px;
+  text-align: center; }
+.favoritos p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #56251b;
+  text-align: center; }
+
+/*# sourceMappingURL=Favorites.css.map */
