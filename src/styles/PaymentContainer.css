@@ -1,0 +1,6 @@
+.paymentContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5% 10%; }
+
+/*# sourceMappingURL=PaymentContainer.css.map */
