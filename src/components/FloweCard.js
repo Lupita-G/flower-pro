@@ -1,23 +1,23 @@
 import React from 'react';
 import '../styles/FlowerCard.css';
 
-const FlowerCard = () => {
+function FlowerCard (props) {
     return(
         <article className="flower-card">
           <div className="flower-image">
             <figure>
               <img
-                src="https://images.unsplash.com/photo-1548094967-e25a127d1f6d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjR8fGJvdXF1ZXQlMjByb3NlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
-                alt="Ramo de Rosa Roja"
+                src={props.src}
+                alt={props.name}
               />
             </figure>
           </div>
           <div className="flower-content">
             <h3>
-              Rosa Roja
+              {props.name}
             </h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              {props.description}
             </p>
           </div>
         </article>

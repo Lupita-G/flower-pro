@@ -1,16 +1,16 @@
 import React from 'react';
 import '../styles/PaymentCard.css';
 
-const PaymentCard = () => {
+function PaymentCard (props) {
     return (
         <div className="paymentCard">
           <figure>
-            <img src="https://cdn.shopify.com/s/files/1/0246/7551/6468/files/iconos-02_100x100.png?v=1582599069" alt="icon car"/>
+            <img src={props.src} alt="icon"/>
           </figure>
           <div className="content">
-            <p>Envio GRATIS</p>
-            <p>arriba de $999</p>
-            <p>MXN</p>
+            <p>{props.info}</p>
+            <p>{props.infoone} </p>
+            <p>{props.infotwo}</p>
           </div>
         </div>
     );
