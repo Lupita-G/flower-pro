@@ -2,5 +2,7 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   background-color: #f7917b; }
+  .header > * .nav-link {
+    color: #ffffff; }
 
 /*# sourceMappingURL=Navbar.css.map */
