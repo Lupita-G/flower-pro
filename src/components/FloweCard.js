@@ -19,6 +19,8 @@ function FlowerCard (props) {
             <p>
               {props.description}
             </p>
+            <p className="precio" >{props.precio}</p>
+            <button> {props.info} </button>
           </div>
         </article>
     );

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import '../styles/SignIn.css';
 
 function SignIn() {
     const [userEmail, setUserEmail] = useState("");
@@ -18,17 +19,19 @@ function SignIn() {
     }
 
     return (
-        <form className="tarjeta">
-            <div className="mb-3">
+        <form className="container-one">
+        <h3>Bienvenido</h3>
+        <p>Ingresa tu Email y Contraseña para iniciar</p>
+        <div className="container-two">
+            <div className= "mb-3">
                 <input
                     type="email"
                     class="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                     placeholder="Email"
-                    onChange={onChangeUserEmail}
-                />
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    
+                />         
             </div>
             <div className="mb-3">
                 <input
@@ -36,19 +39,13 @@ function SignIn() {
                     class="form-control"
                     id="exampleInputPassword1"
                     placeholder="Contraseña"
-                    onChange={onChangePassword}
+                    
                 />
+                <a href="/">¿Olvidó su contraseña</a>
             </div>
-            <div className="mb-3 form-check">
-                <input
-                    type="checkbox"
-                    class="form-check-input"
-                    id="exampleCheck1"
-                />
-                <label className="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
+          <button type="submit" class="btn ">Enviar</button>
+        </div>
+    </form>
     );
 
 }

@@ -1,6 +1,8 @@
 .flower-card {
     background-color: #fdf9f8;
-    border-radius: 8px;
+    border-radius: 6px;
+    appearance: none;
+    outline: 0;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -12,6 +14,10 @@
     }
 }
 .flower-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
     h3 {
         font-family: 'Canela', serif;
         font-size: 25px;
@@ -23,5 +29,34 @@
         text-align: center;
         font-size: 16px;
         padding-left: 8px;
+        
     }
+    .precio {
+        font-family: 'Canela', serif;
+        color: #c8553d;
+        font-size: 25px;
+    }
+    button {
+      background-color: #f3c9c1;
+      appearance: none;
+      outline: 0;
+      border: 0;
+      padding: 10px 15px;
+      border-radius: 6px;
+      width: 200px;
+      cursor: pointer;
+      font-size: 18px;
+      color:#56251b;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 800;
+      margin-left: 50px;
+      margin-bottom: 5px;
+    }
+    button:hover {
+        background-color: #c8553d;
+        border: 1px solid #ffffff; 
+        color: #f3c9c1;
+    }
+
+
 }
