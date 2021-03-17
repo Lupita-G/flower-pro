@@ -1,7 +1,7 @@
 .container-one {
   max-width: 600px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   padding: 100px 100px;
   height: 400px;
   text-align: center; }
@@ -37,8 +37,6 @@
     color: #56251b;
     transition-duration: 0.25s;
     font-weight: 300; }
-  .container-two a {
-    color: #56251b; }
   .container-two button {
     background-color: #f3c9c1;
     appearance: none;
@@ -52,7 +50,7 @@
     transition-duration: 0.25s; }
   .container-two button:hover {
     background-color: #c8553d;
-    border: 1px solid #ffffff; 
-    color: #f3c9c1;}
+    border: 1px solid #ffffff;
+    color: #f3c9c1; }
 
-/*# sourceMappingURL=SignIn.css.map */
+/*# sourceMappingURL=SignUp.css.map */

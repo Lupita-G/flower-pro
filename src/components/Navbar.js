@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 flex-row  align-items-end" >
                 <li className="nav-item">
-                  <Link className="nav-link" style={{color: 'white'}} to="/iniciarSesion">Iniciar Sesion</Link>
+                  <Link className="nav-link" style={{color: 'white'}} to="/iniciarSesion">Ingresar</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" style={{color: 'white'}} to="/registro">Registro</Link>

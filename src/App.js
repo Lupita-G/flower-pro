@@ -1,34 +1,24 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './styles/App.css';
 import Navbar from './components/Navbar';
-import Main from './components/Main';
-import Favorites from './components/Favorites';
-import FlowerSection from './components/FlowerSection';
-import Banner from './components/Banner';
-import PaymentContainer from './components/PaymentContainer';
-import PaymentCard from './components/PaymentCard';
+import Home from './components/Home';
 import Footer from './components/Footer';
 import SignIn from './components/SignIn';
+import SignUp from './components/SignUp';
 
 const App = () => {
   return (
 
       <BrowserRouter>
         <Navbar />
-        <div className="container">
-          <Route exact path="/signin" component={SignIn} /> 
-        </div>
-
-        <div >
-          <Main />
-          <Favorites />
-          <FlowerSection />
-          <Banner />
-          <PaymentContainer />
-          <Footer />
-          <SignIn />
-        </div>
+        <Switch>
+          <Route exact path="/"        component = {Home} />
+          <Route exact path="/iniciarSesion"    component = { SignIn} />
+          <Route exact path="/registro"    component = { SignUp} />
+        </Switch>
+        <Footer />
+    
       </BrowserRouter>
 
 
