@@ -16,5 +16,10 @@
     padding-top: 210px;
     font-weight: 500;
     font-size: 40px; }
+@media (max-width: 650px) {
+  .banner h3 {
+    font-weight: 400;
+    font-size: 30px;
+  }}
 
 /*# sourceMappingURL=Banner.css.map */

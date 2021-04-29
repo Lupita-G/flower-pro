@@ -8,8 +8,8 @@
   overflow: hidden;
   height: 500px; }
   .flower-card .flower-image img {
-    width: 400px;
-    height: 250px; }
+  width: 400px;
+  height: 250px;}
 .flower-content {
   display: flex;
   flex-direction: column;
@@ -41,11 +41,26 @@
   color: #56251b;
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
-  margin-left: 50px;
-  margin-bottom: 5px;}
+  /*margin-left: 50px;
+  margin-bottom: 5px;*/
+  align-self: center;
+  justify-self: center;}
 .flower-content button:hover {
   background-color: #c8553d;
   border: 1px solid #ffffff;
   color: #f3c9c1; }
 
+
+@media (max-width: 650px) {
+  .flower-card .flower-content .precio {
+      font-size: 20px;
+  } 
+  .flower-card .flower-content button {
+    width: 150px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+ 
+ }
 /*# sourceMappingURL=FlowerCard.css.map */

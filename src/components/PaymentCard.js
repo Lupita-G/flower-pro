@@ -8,9 +8,7 @@ function PaymentCard (props) {
             <img src={props.src} alt="icon"/>
           </figure>
           <div className="content">
-            <p>{props.info}</p>
-            <p>{props.infoone} </p>
-            <p>{props.infotwo}</p>
+            <p className="info">{props.info}</p>
           </div>
         </div>
     );

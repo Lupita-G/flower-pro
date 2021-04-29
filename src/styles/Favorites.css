@@ -11,4 +11,16 @@
   color: #56251b;
   text-align: center; }
 
+@media (max-width: 650px) {
+   
+  .favoritos > h2 {
+    font-size: 30px;
+  }
+  .favoritos > p {
+    font-size: 16px;
+
+  } 
+
+}
+
 /*# sourceMappingURL=Favorites.css.map */

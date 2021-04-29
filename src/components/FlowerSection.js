@@ -70,6 +70,27 @@ class FlowerSection extends React.Component {
                 description:"Representan una faceta muy importante de la amistad, tienen variedad de color.",
                 precio:"$309.00",
                 info:"Ver producto"
+            },
+            {
+                name:"Claveles",
+                src:"https://cdn.pixabay.com/photo/2016/09/12/16/29/clavel-1665073__340.jpg",
+                description:"Flor de los Dioses, simbolizan la belleza y el orgullo, ideales para regalo.",
+                precio:"$275.00",
+                info:"Ver producto"
+            },
+            {
+                name:"Nochebuena",
+                src:"https://cdn.pixabay.com/photo/2017/12/05/00/54/good-night-2998274__340.jpg",
+                description:"Flor de pascua, simbolo de las festividades decembrinas que decoran tu hogar. ",
+                precio:"$349.00",
+                info:"Ver producto"
+            },
+            {
+                name:"Girasoles",
+                src:"https://cdn.pixabay.com/photo/2013/05/31/19/09/sunflowers-115061__340.jpg",
+                description:"Es el simbolo del sol, simboliza el amor, la admiración y la felicidad, ideal para regalo.",
+                precio:"$329.00",
+                info:"Ver producto"
             }
         ]
     };

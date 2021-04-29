@@ -1,5 +1,5 @@
 .paymentCard {
-  margin: 100px;
+  margin: auto;
   width: 250px;
   border: none;
   background-color: #f9e7e3; }
@@ -9,5 +9,18 @@
     font-size: 18px;
     color: #56251b;
     text-align: left; }
+@media (max-width: 650px) {
+  .paymentCard{
+    width: 50px;
+  }
+  .paymentCard > figure > img {
+    width: 50px;
+ }
+  .paymentCard .content {
+    font-weight: 700;
+    font-size: 16px;
+  }
+     
+}
 
 /*# sourceMappingURL=PaymentCard.css.map */

@@ -9,8 +9,8 @@
     height: 500px;
 
     .flower-image img {
-        width: 400px;
-        height: 250px;
+    width: 400px;
+    height: 250px;
     }
 }
 .flower-content {
@@ -49,8 +49,10 @@
       color:#56251b;
       font-family: 'Poppins', sans-serif;
       font-weight: 800;
-      margin-left: 50px;
-      margin-bottom: 5px;
+      /*margin-left: 50px;
+      margin-bottom: 5px;*/
+      align-self: center;
+      justify-self: center;
     }
     button:hover {
         background-color: #c8553d;
@@ -58,5 +60,17 @@
         color: #f3c9c1;
     }
 
+
+}
+@media (max-width: 650px) {
+   .flower-card .flower-content .precio {
+     font-size: 20px;
+   } 
+   .flower-card .flower-content button {
+    width: 150px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 16px;
+  }
 
 }

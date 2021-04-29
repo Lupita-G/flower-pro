@@ -1,9 +1,10 @@
 .footer {
-  background-color: #f7917b;
+  background: linear-gradient(to bottom right, #f7917b 0%, #f7c2b7 100%);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   font-family: 'Poppins', sans-serif;
-  color: #fdf9f8; }
+  color: #56251b; 
+  font-weight: 900;}
   .footer .contacto {
     text-align: center;
     padding-top: 10px; }
