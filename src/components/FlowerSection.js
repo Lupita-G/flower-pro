@@ -97,7 +97,8 @@ class FlowerSection extends React.Component {
 
     render() {
         return (
-            <div className='flower-section'>
+            <div style={{display:"flex", justifyContent: "center"}}>
+               <div className='flower-section' >
                 {this.state.productos.map((flower) => (
                    <FlowerCard
                        name={flower.name}
@@ -107,7 +108,9 @@ class FlowerSection extends React.Component {
                        info={flower.info}
                     />
                 ))}    
+              </div> 
             </div>
+            
         );
     }
 };

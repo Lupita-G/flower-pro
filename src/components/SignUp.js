@@ -2,22 +2,7 @@ import React, { useState } from "react";
 import '../styles/SignUp.css';
 
 function SignUp() {
-    
-    /*const [userEmail, setUserEmail] = useState("");
-    const [password, setPassword] = useState("");
 
-    function onChangeUserEmail(event) {
-        setUserEmail(event.target.value);    
-    }
-
-    function onChangePassword(event) {
-        setPassword(event.target.value);
-    }
-    
-    function onSubmitForm(event) {
-        event.preventDefault();
-
-    }*/
 
     return (
         <form className="container-one">
