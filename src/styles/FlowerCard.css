@@ -51,7 +51,7 @@
   color: #f3c9c1; }
 
 
-@media (max-width: 650px) {
+@media (max-width: 575px) {
   .flower-card .flower-content .precio {
       font-size: 20px;
   } 

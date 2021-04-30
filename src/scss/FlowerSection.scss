@@ -12,9 +12,7 @@
 
 @media screen and (max-width: 575px) {
     .flower-section {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template: repeat(12, 1fr) / 1fr;
         margin: auto;
         column-gap: 10px;
         row-gap: 10px;

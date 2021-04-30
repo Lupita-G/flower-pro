@@ -19,12 +19,13 @@
       align-items: center;
       flex-direction: column; }
 
-@media (max-width: 650px) {
+@media (max-width: 575px) {
   .main {
     width: 100%;
     height: 100vh;
   }
   .main .cabecera > h1 {
+     margin-top: 250px;
      font-size: 30px;
      color: #fdf9f8;
   }
@@ -34,6 +35,6 @@
     
   } 
     
-    }
+}
 
 /*# sourceMappingURL=Main.css.map */

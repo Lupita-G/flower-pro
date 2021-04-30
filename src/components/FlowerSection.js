@@ -46,7 +46,7 @@ class FlowerSection extends React.Component {
             {
                 name:"Orquidea Blanca",
                 src:"https://cdn.pixabay.com/photo/2018/07/06/04/31/orquidea-3519739__340.jpg",
-                description:"El blanco se asocia siempre con la pureza y la eternidad es la mejor forma de expresar el amor puro.",
+                description:"El blanco se asocia con la pureza es la mejor forma de expresar el amor puro.",
                 precio:"$599.00",
                 info:"Ver producto"
             },
@@ -60,7 +60,7 @@ class FlowerSection extends React.Component {
             {
                 name:"Lirios",
                 src:"https://cdn.pixabay.com/photo/2018/07/16/21/02/lirio-3542892__340.jpg",
-                description:"También conocida como azucena, un símbolo de la inocencia, la pureza y la virginidad.",
+                description:"También conocida como azucena, un símbolo de la inocencia y la pureza.",
                 precio:"$289.00",
                 info:"Ver producto"
             },
@@ -98,15 +98,15 @@ class FlowerSection extends React.Component {
     render() {
         return (
             <div className='flower-section'>
-            {this.state.productos.map((flower) => (
-                <FlowerCard
-                    name={flower.name}
-                    src={flower.src}
-                    description={flower.description}
-                    precio={flower.precio}
-                    info={flower.info}
-                />
-            ))}    
+                {this.state.productos.map((flower) => (
+                   <FlowerCard
+                       name={flower.name}
+                       src={flower.src}
+                       description={flower.description}
+                       precio={flower.precio}
+                       info={flower.info}
+                    />
+                ))}    
             </div>
         );
     }
