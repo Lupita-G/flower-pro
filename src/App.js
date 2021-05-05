@@ -18,7 +18,6 @@ const App = () => {
           <Route exact path="/registro"    component = { SignUp} />
         </Switch>
         <Footer />
-    
       </BrowserRouter>
 
 

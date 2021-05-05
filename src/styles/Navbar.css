@@ -1,8 +1,13 @@
 .header > * {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  font-weight: 900;
-  background: linear-gradient(to bottom right, #f7917b 0%, #f7c2b7 100%); }
+  font-weight: bolder;
+  /*background: transparent;*/
+  background: linear-gradient(to bottom right, #eacbca 0%, #ecd8d6 100%);
+}
+  
+   
+
   
 
 /*# sourceMappingURL=Navbar.css.map */

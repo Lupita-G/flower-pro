@@ -9,12 +9,13 @@
         margin-left: 5%;
         margin-top: 20%;
         font-size: 60px;
+        font-weight: 900;
     }
     h3 {
         margin-left: 5%;
     }
     h1, h3 {
-        color: #fdf9f8;
+        color: #fff;
         font-family: 'Canela', serif;
     }
     .cabecera {
@@ -22,6 +23,8 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background: rgba(0,0,0,.3);
+        height: 100%;
     }
 }
 
