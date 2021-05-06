@@ -1,0 +1,58 @@
+.container-one {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 100px 100px;
+  height: 400px;
+  text-align: center; }
+  .container-one h3 {
+    font-weight: 500;
+    font-size: 40px;
+    color: #c8553d; }
+  .container-one p {
+    font-weight: 300;
+    font-size: 20px;
+    color: #56251b; }
+  .container-one h3, .container-one p {
+    font-family: 'Canela', serif;
+    text-align: center; }
+
+.container-two {
+  margin-bottom: 50px;
+  padding: 10px 0;
+  position: relative;
+  z-index: 2; }
+  .container-two input {
+    appearance: none;
+    outline: 0;
+    border: 1px solid #56251b;
+    background-color: #fbf1ef;
+    width: 400px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #56251b;
+    transition-duration: 0.25s;
+    font-weight: 300; }
+  .container-two a {
+    color: #56251b; }
+  .container-two button {
+    background-color: #f3c9c1;
+    appearance: none;
+    outline: 0;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+    width: 400px;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s; }
+  .container-two button:hover {
+    background-color: #c8553d;
+    border: 1px solid #ffffff; 
+    color: #f3c9c1;}
+
+/*# sourceMappingURL=SignIn.css.map */

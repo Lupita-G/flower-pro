@@ -1,0 +1,66 @@
+.flower-card {
+  background-color: #fdf9f8;
+  border-radius: 6px;
+  appearance: none;
+  outline: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 500px; }
+  .flower-card .flower-image img {
+  width: 400px;
+  height: 250px;}
+.flower-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;}
+.flower-content h3 {
+  font-family: 'Canela', serif;
+  font-size: 25px;
+  text-align: center;
+  color: #c8553d; }
+.flower-content p {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  padding-left: 8px; }
+.flower-content .precio {
+  font-family: 'Canela', serif;
+  color: #c8553d;
+  font-size: 25px; }
+.flower-content button {
+  background-color: #f3c9c1;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #56251b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  /*margin-left: 50px;
+  margin-bottom: 5px;*/
+  align-self: center;
+  justify-self: center;}
+.flower-content button:hover {
+  background-color: #c8553d;
+  border: 1px solid #ffffff;
+  color: #f3c9c1; }
+
+
+@media (max-width: 575px) {
+  .flower-card .flower-content .precio {
+      font-size: 20px;
+  } 
+  .flower-card .flower-content button {
+    width: 150px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+ 
+ }
+/*# sourceMappingURL=FlowerCard.css.map */
